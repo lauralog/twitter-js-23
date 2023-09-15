@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "user": {
+      "name": "phassur0",
+      "nick": "Pearl",
+      "avatar": "http://dummyimage.com/225x206.png/dddddd/000000"
+    },
+    "time": "December 25, 2020 23:15 UTC",
+    "content": "curabitur in libero ut massa volutpat convallis morbi odio odio",
+    "comments": 1,
+    "retweets": 1,
+    "likes": 1,
+    "retweeted": true,
+    "liked": false
+  },
+  {
+    "id": 2,
+    "user": {
+      "name": "kkacheler1",
+      "nick": "Kassandra",
+      "avatar": "http://dummyimage.com/129x115.png/5fa2dd/ffffff"
+    },
+    "time": "16 February 2023 14:48 UTC", 
+    "content": "vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum",
+    "comments": 2,
+    "retweets": 2,
+    "likes": 2,
+    "retweeted": false,
+    "liked": true
+  },
+  {
+    "id": 3,
+    "user": {
+      "name": "pjuleff2",
+      "nick": "Prent",
+      "avatar": "http://dummyimage.com/151x190.png/ff4444/ffffff"
+    },
+    "time": "31 May 2022 14:48 UTC",
+    "content": "pretium iaculis diam erat fermentum justo",
+    "comments": 3,
+    "retweets": 3,
+    "likes": 3,
+    "retweeted": false,
+    "liked": true
+  },
+  {
+    "id": 4,
+    "user": {
+      "name": "flarn3",
+      "nick": "Far",
+      "avatar": "http://dummyimage.com/123x123.png/5fa2dd/ffffff"
+    },
+    "time": "16 December 2022 07:23 UTC", 
+    "content": "vulputate luctus cum sociis natoque penatibus et",
+    "comments": 4,
+    "retweets": 4,
+    "likes": 4,
+    "retweeted": false,
+    "liked": true
+  },
+  {
+    "id": 5,
+    "user": {
+      "name": "streharne4",
+      "nick": "Shalna",
+      "avatar": "http://dummyimage.com/195x213.png/cc0000/ffffff"
+    },
+    "time": "13 January 2023 10:41 UTC",
+    "content": "amet erat nulla tempus vivamus in felis eu",
+    "comments": 5,
+    "retweets": 5,
+    "likes": 5,
+    "retweeted": false,
+    "liked": true
+  }
+]

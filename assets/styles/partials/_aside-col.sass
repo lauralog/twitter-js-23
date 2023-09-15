@@ -1,0 +1,21 @@
+.menu
+  @apply max-w-xs
+
+  .sidebar_menu
+    @apply px-2
+    .menu_item
+      @apply py-2
+      @apply text-light_gray fill-light_gray
+      .menu_item_link
+        @apply flex gap-3 items-center my-1
+        .menu_icon
+          @include icon 
+
+  .aside_tweet_btn
+    @apply m-4 flex justify-center
+    .tweet_btn
+      @apply w-full min-w-full px-8 py-2
+      @include btn
+
+.menu_active
+  @apply text-white fill-white

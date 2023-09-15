@@ -1,0 +1,18 @@
+@mixin fs_base() 
+    font-size: 1rem
+    line-height: 1.5rem
+
+@mixin icon()
+    @apply h-7 w-7
+
+@mixin btn()
+    @apply rounded-full text-center 
+    @apply bg-primary text-white
+
+    &:disabled
+        @apply bg-mid_gray
+
+@mixin img()
+    @apply overflow-hidden
+    img
+        @apply object-cover h-full w-full 

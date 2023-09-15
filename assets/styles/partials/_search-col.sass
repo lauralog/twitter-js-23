@@ -1,0 +1,38 @@
+.search
+
+    .section_header 
+        @apply w-full
+        .search_form
+            @apply rounded-full p-2 w-full
+            @apply flex justify-center items-center gap-1
+            @apply bg-dark_gray
+            .search_icon 
+                @apply w-[18px] h-[18px] 
+                svg
+                    @apply w-full h-full
+            .searchbox 
+                @apply w-[80%]
+                @apply bg-inherit text-light_gray
+
+    .trending_holder
+        @apply px-2 
+
+        .trending
+            @apply p-2 rounded-xl bg-dark_gray
+            .trending_title
+                @apply pb-2
+
+            .trending_items
+                .trending_item 
+                    @apply mb-3 
+                    .hashtag 
+                        @apply flex gap-1 items-center
+                        @apply text-white
+                        .hashtag_icon
+                            @apply w-[16px] h-[16px] fill-white
+                            svg
+                                @apply w-full h-full
+                        // .hashtag_title
+
+                    .retweets
+                        @apply text-xs text-light_gray

@@ -1,0 +1,30 @@
+@tailwind base
+@tailwind components
+@tailwind utilities
+
+@import './lib/mixins'
+@import './lib/vars'
+@import './lib/fontface.scss'
+@import './lib/font-style'
+
+@import './lib/section-header'
+@import './partials/aside-col'
+@import './partials/tweet-form'
+@import './partials/tweets'
+@import './partials/search-col'
+@import './partials/modal-window'
+
+
+* 
+  // @apply border border-yellow-700
+
+.app
+  @apply w-full m-auto max-w-[1080px] min-h-screen px-4 mt-1
+  @apply grid grid-cols-[1fr_2.5fr_1fr]
+  @apply bg-black text-white font-source_sans
+  .menu
+    @apply pr-4 max-w-[250px]
+  .main
+    @apply border-x-[1px]  border-mid_gray
+  .search
+    @apply pl-4 max-w-[250px]

@@ -1,0 +1,13 @@
+.modal_container
+    @apply relative z-50 
+    @apply fixed top-0 left-0 w-screen h-screen
+    @apply backdrop-blur-sm
+    &_flex
+        @apply flex justify-center items-center
+        
+    .modal_bg
+        @apply flex h-[100vh] w-full bg-gray-700 opacity-30
+    .modal_window
+        @apply absolute flex rounded-xl
+        @apply  w-[500px] px-5 pt-7
+        @apply bg-black

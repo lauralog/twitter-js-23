@@ -1,0 +1,41 @@
+.tweets
+  @apply min-h-[2rem] 
+  @apply border-t-2 border-mid_gray
+
+  .tweet
+    @apply min-h-[100px] p-4
+    @apply border-b-2 border-mid_gray
+    @apply flex gap-4
+
+    .tweet_avatar
+      @apply w-11 h-10 rounded-full
+      @include img
+
+    .tweet_content
+      @apply w-full flex flex-col gap-2
+
+      .tweet_header
+        @apply flex gap-2 items-baseline 
+        @apply text-base text-light_gray
+
+        .user_nick
+          @apply text-white font-semibold
+        .user_name
+          @apply text-base lowercase
+        // .tweet_time
+
+      // .tweet_text
+      //   p
+
+      .tweet_data
+        @apply w-1/2 mt-1
+        @apply flex justify-between
+
+        .data_item
+          @apply flex gap-1 items-center
+          @apply fill-mid_gray text-mid_gray
+          .icon
+            @apply w-[24px] min-w-[1rem] 
+            @include icon()
+          .number
+            @apply text-sm 
